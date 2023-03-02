@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Absolute - Relative </title>
+    <style>
+        .fourground {
+            height: 300px;
+            width: 300px;
+            background-color: coral;
+            margin: 50px;
+            font-size: 3rem;
+            position: relative;
+        }
+        
+        .fourground span {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        
+        .background {
+            height: 300px;
+            width: 300px;
+            background: url(https://unsplash.com/assets/api/applications/buzzfeed-54e1bf463ffe99ad5d3702a2be47540431c2fbbdeab17a0b152d4628a8def5e3.jpg);
+            background-size: 100% 100%;
+            margin: 200px;
+            font-size: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Position-Absolute & Relative -->
+    <!-- aama koi pan text ke div ne move karavanu hoy to kari sakay -->
+    <!-- and ek div lidhu hoy to ena under child lidu hoy pan e 100% width layine aave but aadne ena uper j set karvanu hoy to Position-Absolute & Relative aapine kari sakay -->
+    <!-- Position-Absolute & Relative ek shath kaam kare 6 -->
+    <!-- absolute vager relative kaam nahi kare -->
+    <!-- jyare perent nd child hoy to relative aapvu jaroori 6s -->
+    <!--  -->
+    <!-- Absolute==> always for CHILD -->
+    <!-- Relative==> always for PERENT -->
+    <!-- example==> -->
+
+    <div class="fourground"> <span> Hemant </span>
+        <img src="https://unsplash.com/assets/api/applications/buzzfeed-54e1bf463ffe99ad5d3702a2be47540431c2fbbdeab17a0b152d4628a8def5e3.jpg" alt="" height="300px" width="300px">
+    </div>
+    <div class="background"> Hemant </div>
+
+</body>
+
+</html>
